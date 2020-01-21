@@ -2,7 +2,7 @@
 
 ## This project is just the final exercises of each Rocketseat Javascript course module
 
-### **Exercícios: Módulo 01 ** :point_up:
+### **Exercícios: Módulo 01** Manipulando a DOM :point_up:
 
 :one:** exercício** :pencil:
 
