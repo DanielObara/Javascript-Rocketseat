@@ -2,7 +2,7 @@
 
 ## This project is just the final exercises of each Rocketseat Javascript course module
 
-### **Exercícios: Módulo 01** Manipulando a DOM :point_up:
+### **Exercícios Módulo 01** - Introdução JavaScript :point_up:
 
 :one:** exercício** :pencil:
 
@@ -88,7 +88,7 @@ Escreva uma função que produza o seguinte resultado:
 _Dica: Para percorrer um vetor você deve utilizar a sintaxe for...of e para unir valores de um array
 com um separador utilize o join._
 
-### **Exercícios: Módulo 02** :v:
+### **Exercícios Módulo 02** - Manipulando a DOM :v:
 
 :one:** exercício** :pencil:
 
@@ -141,12 +141,12 @@ nomes baseado no nome preenchido no input e renderizando o novo item em tela jun
 demais itens anteriores. Além disso, o conteúdo do input deve ser apagado após o clique.
 
 
-### **Exercícios: Módulo 03** :
+### **Exercícios Módulo 03** - App de ToDos :
 
 Criado aplicativo Todo List no qual armazena os dados na localStorage. Cria e exclui itens na lista de Todo's.
 
 
-### **Exercícios: Módulo 04** :
+### **Exercícios Módulo 04** - JS Assíncrono :
 
 :one:** exercício**
 Crie uma função que recebe a idade de um usuário e retorna uma Promise que depois de 2
