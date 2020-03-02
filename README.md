@@ -1,8 +1,37 @@
-# JS Rocketseat Challenge Excercises :book:
+<h1 align="center">
+    <img alt="Starter" title="Javascript Starter"src=".github/logo.png" width="200px" />
+</h1>
 
-## This project is just the final exercises of each Rocketseat Javascript course module
+<h3 align="center">
+  JS Rocketseat Challenge Excercises :book:
+</h3>
 
-### **Exercícios Módulo 01** - Introdução JavaScript :point_up:
+<p align="center">This project is just the final exercises of each Rocketseat Javascript course module <a href="https://skylab.rocketseat.com.br/journey/starter">JavaScript Starter</a> 🎓
+</p>
+
+<p align="center">
+  
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/danielobara/Javascript-Rocketseat?color=%2304D361">
+
+  <a href="https://www.linkedin.com/in/danielobara/">
+    <img alt="Made by DanielObara" src="https://img.shields.io/badge/made%20by-DanielObara-%2304D361">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
+  
+  <a>
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/danielobara/Javascript-Rocketseat.svg">
+  </a>
+  
+  <a href="https://github.com/danielobara/Javascript-Rocketseat/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/danielobara/Javascript-Rocketseat.svg">
+  </a>
+   <a href="https://github.com/DanielObara/Javascript-Rocketseat/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/danielobara/Javascript-Rocketseat?style=social">
+  </a>
+</p>
+
+### Exercícios Módulo 01 - Introdução JavaScript :point_up:
 
 :one:** exercício** :pencil:
 
@@ -202,3 +231,16 @@ da lista apenas enquanto a requisição estiver acontecendo:
 
 Além disso, adicione uma mensagem de erro em tela caso o usuário no Github não exista.
 Dica: Quando o usuário não existe, a requisição irá cair no .catch com código de erro 404.
+
+## 🤔 Como contribuir
+
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
