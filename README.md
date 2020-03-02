@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Starter" title="Javascript Starter"src=".github/logo.jpg" width="200px" />
+    <img alt="Starter" title="Javascript Starter"src=".github/logo.png" width="200px" />
 </h1>
 
 <h3 align="center">
