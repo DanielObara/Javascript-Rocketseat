@@ -1,0 +1,35 @@
+body{
+    background: rgba(0, 0, 0, 0.212);
+}
+div{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-bottom: 3px;
+    box-shadow: 9px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+div .colorBox{
+    width: 100px;
+    height: 100px;
+}
+div.ize{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+   
+}
+.botao{
+    width: 350px;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: rgb(10, 61, 172);
+    color: white;
+    font-size: 18px;
+   
+}

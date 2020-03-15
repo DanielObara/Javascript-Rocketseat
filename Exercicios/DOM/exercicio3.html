@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3 - skylab</title>
+</head>
+<body>
+    <div class="adcNames">
+        <input type="text" name="name" id="adcName" placeholder="Digite um nome">
+        <button class ="botao" onclick="adicionar()">Adicionar</button>
+        <button class = "botao" onclick="remover()">Remover</button>
+    </div>
+   
+    <div class="names">
+        
+    </div>
+      
+    <script>
+        const names = [];
+        const listNames = document.querySelector('div.names');
+        const adcName = document.querySelector('input#adcName');
+        listNames.innerHTML = ` <ul><li>${names.join('<li>')}</li></ul>`;
+        console.log(names);
+        if(names == ""){
+            listNames.innerHTML = `<p>Digite algum nome a lista</p>`;
+        }
+        
+        function adicionar(){
+            if(adcName.value == ""){
+                alert('Digite um nome para ser adicionado');
+            }else{
+            var newName = names.push(adcName.value);
+            listNames.innerHTML = ` <ul><li>${names.join('<li>')}</li></ul>`;
+            };
+        };
+        function remover(){
+            if(adcName.value == ""){
+                alert('Digite um nome para ser removido');
+            }else{
+            var search = names.indexOf(adcName.value);
+            console.log(search);    
+            if(search == -1){
+                alert('Nome não encontrado');
+            }else{
+            var removeName = names.splice(search, 1);
+            listNames.innerHTML = ` <ul><li>${names.join('<li>')}</li></ul>`;   
+            }
+            };
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    background: rgba(21, 22, 22, 0.103);
+    font: normal 15pt Arial;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+.container{
+    background: rgb(23, 10, 141);
+    border-radius: 10px;/*Para deixar os cantos arrendondados  */
+    padding: 200px;
+    width: 500px; /*Altura */
+    margin: auto; /* Alinhar no centro*/
+    color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.233);
+}
+
+input#txtUser{
+    padding: 10px 20px;
+    text-decoration: none;  
+    font-size: 16px;
+    margin: 4px 2px;
+   
+}
+button.botao{
+    background-color: rgb(49, 51, 165);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+   
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  button.botao:hover{
+    background-color: rgb(65, 67, 185);
+  }

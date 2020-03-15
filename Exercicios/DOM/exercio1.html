@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1  e 2 - SkyLab</title>
+    <link rel="stylesheet" href="exercicio1.css">
+
+</head>
+<body >
+   
+   <div class="ize">
+       <p>Clique aqui</p>
+        <button  class="botao">Click</button>
+    </div>
+    <div id="app"></div>    
+   
+    <script>
+        document.querySelector('button.botao').onclick = createBox;  
+            var boxElement;
+        function createBox(){
+            boxElement = document.createElement('div');
+            boxElement.setAttribute('class', 'colorBox'); 
+              boxElement.setAttribute('onmouseover', 'randomColor()');
+              boxElement.setAttribute('onmouseout', 'randomColor()');
+            
+          var corRandom = '#'+Math.floor(Math.random()*16799915).toString(16)
+          boxElement.style.backgroundColor = corRandom;
+          var createboxElement = document.querySelector('#app');
+          createboxElement.appendChild(boxElement);
+      
+            box = document.querySelectorAll('.colorBox');
+           
+        }
+        
+        function getRandomColor(){
+            var letters = "0123456789ABCDEF";
+            var color = "#";
+            for(var i = 0; i < 6; i++){
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+        var newColor = getRandomColor();
+        function randomColor(){
+            
+            var newCor = '#'+Math.floor(Math.random()*16799915).toString(16);
+            for (var i = 0; i < box.length; i++) {
+                box[i].style.backgroundColor = newCor;
+              }
+              
+           console.log('funcionando');
+            
+        }
+      
+        
+
+
+    </script>
+     
+</body>
+</html>

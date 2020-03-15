@@ -1,0 +1,19 @@
+<html>
+<body>
+       <p></p>
+  <script>
+       
+      var endereco = {
+          rua : "Rua dos Pinheiros", 
+          numero: 1293,
+          bairro: "Centro",
+          cidade: "São Paulo",
+          uf:"SP",
+      };
+  
+     console.log(`O usuário mora em ${endereco.cidade}/${endereco.uf}, no bairro ${endereco.bairro}, na rua ${endereco.rua}, de Nº ${endereco.numero}.`);
+      var ah1 = document.querySelector('p');
+      ah1.innerHTML = `O usuário mora em ${endereco.cidade}/${endereco.uf}, no bairro ${endereco.bairro}, na rua ${endereco.rua}, de Nº ${endereco.numero}.`;
+  </script>
+</body>
+</html>
