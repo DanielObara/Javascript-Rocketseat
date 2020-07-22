@@ -60,9 +60,15 @@ const fillList = repositorios => {
 
   for (repo of repositorios) {
     const reponame = document.createTextNode(repo.name);
+    const repolink = document.createTextNode(repo.html_url);
     const repoItem = document.createElement("li");
-
-    repoItem.appendChild(reponame);
+    const link = document.createElement("a");
+    
+    link.setAttribute("href", repolink.data);
+    link.setAttribute("target", "_blank");
+    link.appendChild(reponame);
+    repoItem.appendChild(link);
     dataList.appendChild(repoItem);
+
   }
 };
