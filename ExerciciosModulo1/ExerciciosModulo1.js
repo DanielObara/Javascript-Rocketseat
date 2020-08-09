@@ -11,6 +11,28 @@ console.log(`O usuário mora em ${cidade} / ${uf}, no bairro
 ${bairro}, na rua "${rua}" com nº ${numero}.`);
 
 /*--------------------------------------------------------------------------------------------------*/
+
+// Alternative code for Exercise 1:
+
+var address = {
+  street: "Rua dos pinheiros",
+  number: 1293,
+  district: "Centro",
+  city: "São Paulo",
+  state: "SP"
+ };
+
+function address2 () {
+  var res = 'O usuário mora em ' + address.city + ' / ' + address.state + ', no bairro ' + address.district + ', na rua ' + address.street + " com número " + address.number; 
+  return res;
+}
+
+var res = address2();
+
+console.log (res);
+
+/*--------------------------------------------------------------------------------------------------*/
+
 //Exercicio 2:
 const pares = (x, y) => {
   for (var i = x; i <= y; i++) {
@@ -20,7 +42,26 @@ const pares = (x, y) => {
   }
 };
 pares(1, 20);
+
 /*--------------------------------------------------------------------------------------------------*/
+
+// Alternative code for Exercise 2:
+// Source: https://pt.stackoverflow.com/a/290387/49535
+
+var pares = [];
+function exibePar(n1,n2){
+   while(n1<=n2){
+      if((n1%2)==0){
+        pares.push(n1);
+      }
+      n1++    
+   }
+}
+exibePar(0,20);
+console.log(pares);
+
+/*--------------------------------------------------------------------------------------------------*/
+
 //Exercicio 3:
 const validaSkill = skills => {
   if (skills.indexOf("Javascript") !== -1) {
